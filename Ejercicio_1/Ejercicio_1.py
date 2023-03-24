@@ -9,3 +9,12 @@ class libro:
         print("Autor: ", self.autor)
         print("Páginas: ", self.paginas)
         print("Precio: ", self.precio)
+# def main():
+#     libro1 = libro()
+#     libro1.describir_libro()
+#     libro1.mostrar_libro()
+def main():
+    libro1 = libro()
+    libro1.mostrar_libro()
+if __name__ == "__main__":
+    main()
